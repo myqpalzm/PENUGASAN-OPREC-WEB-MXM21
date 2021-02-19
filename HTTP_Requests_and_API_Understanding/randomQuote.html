@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Random Quote Generator!</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Random Quote Generator!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+</head>
 
-    <h1>Random Quote Generator!</h1>
+<body>
+  <div id="mainContainer">
+    <div id="container1">
+      <div id="container1a">
+        <p id="quoteText">&nbsp;</p>
+      </div>
+      <div id="container1b">
+        <p id="authorText">&nbsp;</p>
+      </div>
+    </div>
+    <div id="container2">
+      <div>
+        <button type="button" class="quoteBtn">New Quote</button>
+      </div>
+      <div>
+        <button type="button" class="tweetBtn">Tweet Quote</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
 
-    <p id="quoteText">&nbsp;</p>
-    <p id="authorText">&nbsp;</p>
-
-    <button type="button" name="quoteBtn">New Quote</button>
-
-    <script type="text/javascript" src="script.js"></script>
-  </body>
 </html>
